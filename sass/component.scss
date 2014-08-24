@@ -208,7 +208,7 @@ ul.side-list {
   -webkit-box-shadow: 0 0 3px #ccc;
   font-size: 14px;
   line-height: 150%;
-  h1 {
+  h1, .title {
     font-size: 24px;
     font-weight: 600;
     line-height: 150%;
@@ -240,4 +240,27 @@ ul.side-list {
   p {
     line-height: 150%;
   }
+  input.title {
+    width: 100%;
+  }
+  input#submit-button {
+    width: 200px;
+    height: 40px;
+    background-color: #EA5C5C;
+    text-align: center;
+    padding-top: 2px;
+    line-height: 38px;
+    border-style: none;
+    color: #FFF;
+    border-radius: 3px;
+    display: block;
+    margin: 40px auto 20px;
+    -webkit-box-shadow: 0 1px 0 #999;
+    -moz-box-shadow: 0 1px 0 #999;
+    box-shadow: 0 1px 0 #999;
+    font-size: 14px;
+  }
+
+
 }
+
