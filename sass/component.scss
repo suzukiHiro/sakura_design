@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+ul.border-menu {
+  li {
+    padding: 0 10px;
+    border-right: 1px solid #999;
+    float: left;
+    font-size: 12px;
+    line-height: 150%;
+    color: #DDD;
+    line-height: 100%;
+  }
+  li:last-child {
+    border: none;
+    padding-right: 0px;
+  }
+}
+
+ul.list {
+  display: inline-block;
+  padding-top: 35px;
+  margin-left: 45px;
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+ul.recommend-list {
+  padding: 10px;
+  background-color: #FFF;
+  box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  margin-bottom: 20px;
+  li {
+    width: 320px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  li:nth-child(2n+1) {
+    margin-right: 20px;
+  }
+  li:hover {
+    opacity: 0.7;
+  }
+  .mark {
+    width: 50px;
+    height: 60px;
+    margin: -5px 0 0 5px;
+  }
+  .summary {
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    padding: 6px 10px;
+    margin-top: 126px;
+    .title {
+      font-size: 16px;
+    }
+    .price {
+      font-size: 14px;
+      text-align: right;
+      font-family: "Times New Roman";
+    }
+  }
+}
+
+ul.item-list {
+  li {
+    width: 220px;
+    margin-right: 10px;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    float: left;
+    background-color: #FFF;
+    box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+  }
+  li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .thumbnail {
+    width: 200px;
+    height: 180px;
+  }
+  .title {
+    font-size: 14px;
+    margin: 5px 0;
+    height: 1.5em;
+    line-height: 150%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .price {
+    font-size: 14px;
+    color: rgb(155,0,0);
+    font-family: "Times New Roman";
+  }
+}
+
+ul.entry-list {
+  li {
+    padding: 10px;
+    width: 100%;
+    background-color: #FFF;
+    box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    margin: 10px 0;
+
+    .thumbnail {
+      width: 150px;
+      height: 150px;
+      margin-right: 10px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+    .desc {
+      font-size: 14px;
+      color: #999;
+      line-height: 150%;
+      height: 7.5em;
+      overflow: hidden;
+    }
+  }
+}
+
+ul.side-nav {
+  margin-bottom: 20px;
+  li {
+    line-height: 250%;
+    border-bottom: 1px dotted #DDD;
+    font-size: 14px;
+    text-indent: 10px;
+  }
+}
+
+ul.side-list {
+  li {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #DDD;
+    .thumbnail {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+    .title {
+      font-size: 14px;
+    }
+    .price {
+      font-size: 14px;
+      color: rgb(155,0,0);
+      font-family: "Times New Roman";
+    }
+  }
+  li:last-child {
+    border: none;
+    padding-bottom: 0;
+  }
+}
+
+.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sakura-logo {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+.site-name {
+  display: inline-block;
+  line-height: 2.5em;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 10px;
+  font-family: 'Droid Serif', serif;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  font-family: "Times New Roman";
+  border-bottom: 1px solid #e1e1e1;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  -moz-box-shadow: 0 1px 0 #fff;
+  box-shadow: 0 1px 0 #fff;
+}
+
+.copy-right {
+  font-size: 12px;
+}
+
+.wrap-entry {
+  padding: 10px;
+  background-color: #FFF;
+  box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  font-size: 14px;
+  line-height: 150%;
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+  h2 {
+    border-left: 5px solid #DDD;
+    text-indent: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 150%;
+  }
+  img {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
+  ul {
+    margin: 10px 0 10px 20px;
+    list-style: circle;
+    list-style-position: outside;
+  }
+  p {
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,70 @@
+/* line 1, ../sass/layout.scss */
+body {
+  background-color: #f1f1f1;
+}
+
+/* line 5, ../sass/layout.scss */
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 10, ../sass/layout.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 13, ../sass/layout.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 16, ../sass/layout.scss */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 22, ../sass/layout.scss */
+.header {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-top: 3px solid green;
+  border-bottom: 1px solid #DDD;
+  background-color: #FFF;
+  box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+}
+
+/* line 32, ../sass/layout.scss */
+.main {
+  width: 680px;
+  margin-right: 20px;
+}
+
+/* line 37, ../sass/layout.scss */
+.sidebar {
+  width: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+}
+/* line 43, ../sass/layout.scss */
+.sidebar .ad {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 20px;
+}
+
+/* line 50, ../sass/layout.scss */
+.footer {
+  border-top: 1px solid #DDD;
+  margin-top: 20px;
+  padding: 10px 0 40px;
+  text-align: center;
+  background-color: #FFF;
+  box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+}
